@@ -1,0 +1,220 @@
+/*BEGIN Fight Stick Controller Styling*/
+/*Code setup and graphics by Jayraydee, Contact me on twitter @Jayraydee 
+No refunds on digital goods, If you have questions concerning your order please contact us. Your purchase grants you the right to use and display the images for commercial use via streaming, recorded and rebroadcasted media. Your license does not include the right to redistribute copies in anyway, including but not limited to: advertising, stock photography, print sale profits, or resale of any nature. Your purchase of the original files releases The Seller from any liability due to loss or damage of the images, and also releases the Seller from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The Seller the right to use and publish images, graphics, or media to further promote their services, including portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these images, graphics, or media to promotional use only.*/
+
+.controller.fight-stick {
+    background: url(base.png) center no-repeat;
+    height: 534px;
+    width: 1122px;
+}
+
+.fight-stick.disconnected {
+    background: url(Disconnected.png) no-repeat;
+    position: absolute; 
+}
+
+.fight-stick.disconnected div {
+    display: none;
+}
+
+.fight-stick .trigger-button {
+    width: 123px;
+    height: 123px;
+    background: #3a3838;
+    border-radius: 100%;
+    display: block;;
+    opacity: 0;
+}
+
+.fight-stick .trigger-button.pressed {
+     opacity: 1;
+}
+
+.fight-stick .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 108px;
+    right: 42px;
+}
+
+.fight-stick .trigger-button.right {
+    position: absolute;
+    bottom: 108px;
+    right: 206px;   
+}
+.fight-stick .sticks{
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
+}
+.fight-stick .stick{
+    position: absolute;
+    background: url(sticks.png);
+    height:105px;
+    width: 105px;
+}
+/-----------------------------------------
+.fight-stick .bumper.pressed {
+    transform: translateY(50px);
+    
+   background: #3a3838;
+}
+.fight-stick .bumper.left {
+    width: 123px;
+    height: 123px;
+    background: #3a3838;
+    border-radius: 100%;
+    display: block;
+    opacity: 0;
+}
+
+.fight-stick .bumper.left.pressed {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    bottom: 107px;
+    right: 09px;     
+    opacity: 1;
+}
+
+.fight-stick .bumper.right {
+     position: absolute;
+    bottom: 107px;
+    right: 174px;
+    width: 125px;
+    height: 125px;
+    background: #3a3838;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+.fight-stick .bumper.right.pressed {    
+    opacity: 1;
+}
+
+/-----------------------------------------
+
+.fight-stick .arrows {
+    position: absolute;
+    width: 70px;
+    height: 217px;
+    top: 53px;
+    left: 49px;
+}
+
+.fight-stick .back, .fight-stick .start {
+    width: 0px;
+    height: 0px;
+    background: url(Hit_Gray.png);
+    display: none;
+    border-radius: 100%;
+}
+
+.fight-stick .abxy {
+    position: absolute;
+    width: 310px;
+    height: 370px;
+    bottom: 103px;
+    left: 472px;
+}
+
+.fight-stick .button {
+    left: 260px;
+    width: 125px;
+    height: 125px;
+    opacity: 0;
+    display: block;
+    position: absolute;
+}
+
+.fight-stick .button.pressed {
+    transform: translateY(0px);
+    -webkit-filter: invert(1);
+}
+
+.fight-stick .button.pressed.a {
+    width: 123px;
+    height: 123px;
+    background: #3a3838;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+}
+
+.fight-stick .button.pressed.b {
+    width: 123px;
+    height: 123px;
+    background: #3a3838;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    bottom: 66px;
+    left: 154px;
+}
+
+.fight-stick .button.pressed.x {
+    width: 123px;
+    height: 123px;
+    background: #3a3838;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    top: 66px;
+    left: 33px
+}
+
+.fight-stick .button.pressed.y {
+    width: 123px;
+    height: 123px;
+    background: #3a3838;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    left: 186px;
+    top: -001px;
+}
+
+.fight-stick .fstick {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 168px;
+    left: 42px;
+    background: url(fstick.png) no-repeat;
+}
+
+.fight-stick .fstick.up {
+    background-position-x: -1840px;
+}
+
+.fight-stick .fstick.down {
+    background-position-x: -919px;
+}
+
+.fight-stick .fstick.left {
+    background-position-x: -1379px;
+}
+
+.fight-stick .fstick.right {
+    background-position-x: -460px;
+    
+}
+.fight-stick .fstick.up.right {
+    background-position-x: -230px;
+}
+
+.fight-stick .fstick.up.left {
+    background-position-x: -1610px;
+}
+
+.fight-stick .fstick.down.right {
+    background-position-x: -690px;
+}
+
+.fight-stick .fstick.down.left {
+    background-position-x: -1148px;
+}
